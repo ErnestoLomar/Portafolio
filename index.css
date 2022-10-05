@@ -10,7 +10,7 @@
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #c00606;
+  background-color: #7D3C98;
   border-radius: 6px;
 }
 
@@ -53,7 +53,7 @@
 }
 
 #switch:checked + .lbl {
-  background: #c00606;
+  background: #7D3C98 ;
 }
 
 #switch {
@@ -82,7 +82,7 @@ h1 {
   font-family: "Ranchers", sans-serif;
   letter-spacing: 3px;
   font-size: 35px;
-  text-shadow: 2px 2px 5px #c00606;
+  text-shadow: 2px 2px 5px #7D3C98 ;
   cursor: default;
 }
 
@@ -175,7 +175,7 @@ nav {
 
 #btn-trabajos {
   border: 1px solid #fff;
-  background-color: #c00606;
+  background-color: #7D3C98 ;
   color: #fff;
   border-radius: 5px;
   outline: none;
@@ -199,7 +199,7 @@ nav {
 }
 
 #btn-trabajos:hover {
-  background-color: #900707;
+  background-color: #7D3C98 ;
   border: 1px solid #222;
   color: #aaa;
   border: 1px solid #aaa;
@@ -214,7 +214,7 @@ nav {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #e90808;
+  background-color: #7D3C98;
 }
 
 .sobremi {
@@ -278,10 +278,10 @@ nav {
 .proyecto {
   margin: 30px;
   width: 300px;
-  height: 300px;
-  background-color: #790505;
+  height: 320px;
+  background-color: #7D3C98;
   border-radius: 5px;
-  box-shadow: 0 0 15px #ff0000;
+  box-shadow: 0 0 15px #7D3C98;
   overflow: hidden;
 }
 
@@ -308,7 +308,7 @@ nav {
 }
 
 .cajacontenedorclientes {
-  background-color: #c00606;
+  background-color: #7D3C98;
   padding: 10px;
 }
 
@@ -322,7 +322,7 @@ nav {
   max-width: 80%;
   min-width: 80%;
   margin: auto;
-  background-color: #c00606;
+  background-color: #7D3C98;
 }
 
 .titulo-clientes {
@@ -366,15 +366,15 @@ nav {
     background-image: url(img4.png);
 }*/
 
-.cliente:nth-child(5) {
+.cliente:nth-child(4) {
   background-image: url(img5.png);
 }
 
-.cliente:nth-child(6) {
+.cliente:nth-child(5) {
   background-image: url(img6.png);
 }
 
-.cliente:nth-child(7) {
+.cliente:nth-child(6) {
   background-image: url(img7.png);
 }
 
@@ -386,8 +386,45 @@ nav {
   background-image: url(img9.png);
 }*/
 
-.cliente:nth-child(10) {
+.cliente:nth-child(7) {
   background-image: url(img10.png);
+}
+
+.cliente:nth-child(8) {
+  background-image: url(pyqt.png);
+  background-color: #fff;
+}
+
+.cliente:nth-child(9) {
+  background-image: url(github.jpg);
+}
+
+.cliente:nth-child(10) {
+  background-image: url(tcpip.png);
+}
+
+.cliente:nth-child(11) {
+  background-image: url(nfc.jpg);
+}
+
+.cliente:nth-child(12) {
+  background-image: url(arduino.png);
+}
+
+.cliente:nth-child(13) {
+  background-image: url(opencv.jpg);
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+
+.cliente:nth-child(14) {
+  background-image: url(raspberry-logo.jpg);
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+
+.cliente:nth-child(15) {
+  background-image: url(php.svg);
 }
 
 .cliente:hover {
