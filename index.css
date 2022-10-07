@@ -622,4 +622,14 @@ nav {
   .line {
     margin: 0;
   }
+  .cliente{
+    width: 100px;
+    height: 100px;
+  }
+  #btn-trabajos{
+    margin:35px 0;
+  }
+  .copy{
+    text-align: center;
+  }
 }
