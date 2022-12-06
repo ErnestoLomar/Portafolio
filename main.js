@@ -49,7 +49,6 @@ check.addEventListener('click', function(){
 });
 
 let paginaParadise = document.getElementById("paradise");
-let paginaMvp = document.getElementById("mvp");
 let proyectoCarreraDebarriles= document.getElementById("carreradebarriles");
 
 btnTrabajos.addEventListener('click', function(){
@@ -58,10 +57,6 @@ btnTrabajos.addEventListener('click', function(){
 
 paginaParadise.addEventListener('click', function(){
     location.href = "https://paradiseventacasas.000webhostapp.com";
-});
-
-paginaMvp.addEventListener('click', function(){
-    location.href = "https://mvpmx.000webhostapp.com";
 });
 
 proyectoCarreraDebarriles.addEventListener('click', function(){

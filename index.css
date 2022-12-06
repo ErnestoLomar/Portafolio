@@ -429,6 +429,12 @@ nav {
   background-image: url(php.svg);
 }
 
+.cliente:nth-child(16) {
+  background-image: url(quectel.png);
+  background-color: #fff;
+  background-repeat: no-repeat;
+}
+
 .cliente:hover {
   transform: scale(0.9);
 }
@@ -548,6 +554,7 @@ nav {
   cursor: default;
   margin-bottom: 20px;
   margin-top: 10px;
+  text-align: center;
 }
 
 .line {
