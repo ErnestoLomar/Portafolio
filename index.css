@@ -439,6 +439,12 @@ nav {
   background-repeat: no-repeat;
 }
 
+.cliente:nth-child(17) {
+  background-image: url(sqlite.png);
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+
 .cliente:hover {
   transform: scale(0.9);
 }
